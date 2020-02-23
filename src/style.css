@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./testFont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
   color: red;
-  background: url('./icon.png')
+  background: url('./icon.png');
+  font-family: 'MyFont';
 }
